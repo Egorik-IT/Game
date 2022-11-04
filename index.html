@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="wrapper">
+    <div class="game">
+        <div class="game__body">
+            <div class="game__items">
+                <div class="game__text">  Результат: <span></span>
+                </div>
+            </div>
+            <div class="game__counter"></div>
+        </div>
+        <div class="game__win">Победа!</div>
+    </div>
+    <div class="okno__info">
+    <div class="info">
+        <div id="info" class="info__body">
+            <div  onclick="closed()" id="close"  class="info__close">X</div>
+            <div class="info__text">
+                <p>1) Продержись минуту убегая мышью от врагов(квадратов).</p>
+                <p>2) Игра начнётся при наведении на серое поле.</p>
+                <p>3) При выходе за приделы поля, игра начнётся с начала.</p>
+            </div>
+        </div>
+    </div>
+    <div class="pravila"><span>Правила</span><div onclick="info()" title="Правила игры" class="info__icon"> i</div></div>
+</div>
+</div>
+
+<script src="js/script.js" >
+    
+</script>
+</body>
+</html>
+
+
